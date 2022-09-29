@@ -6,8 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    
+    <div class ="content">
+        <div class="background-img">
+            <img src="./images/background.jpg" alt="">
+        </div>
+
+        <div class="picture">
+            <div class="logo">
+                <img src="./images/odin-lined.png" alt="logo" class="odin">
+                <h1 class="odin">Odin</h1>
+            </div>
+        </div>
+        <div class="right">
+            <div class="dummy-text left">
+              <p>This is not a real online service! You know you need something like this in your life to help
+                you realize your deepest dreams. </p>
+              <p>Sign up <em>now</em> to get started.</p>
+              <p class="remote-txt">You <em>know</em> you want to.</p>
+            </div>
+            <form action="#">
+                <div class="form left">
+                    <p class="form-title">Let's do this</p>
+                    <div class="input">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="last-name">Last Name</label>
+                        <input text="text" name="last-name" id="last-name">
+                    </div>
+
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required>
+                    </div>
+                </div>
+                <div class="left button"><button type="submit">Create Account</button></div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
